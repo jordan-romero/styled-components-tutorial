@@ -7,9 +7,9 @@ const Button = styled.button`
   ${(props) =>
     props.large
       ? css`
-          padding: 130px;
+          padding: 10px;
           border-radius: 5px;
-          font-size: 13.5em;
+          font-size: 1.5em;
         `
       : css`
           padding: 8px;
@@ -17,7 +17,6 @@ const Button = styled.button`
           font-size: 1em;
         `}
   box-shadow: none;
-  font-size: 1em;
   border: none;
   width: 100%;
   display: block;
