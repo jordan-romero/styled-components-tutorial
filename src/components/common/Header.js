@@ -10,6 +10,7 @@ const HeaderWrapper = styled.header`
   padding: 0 16px;
   position: fixed;
   top: 0;
+  background: #eeeeee;
 `;
 
 export function Header() {
