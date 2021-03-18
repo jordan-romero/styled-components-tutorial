@@ -12,13 +12,11 @@ const HeaderWrapper = styled.header`
   top: 0;
 `;
 
-const Header = () => {
+export function Header() {
   return (
     <HeaderWrapper>
       <Link to='/'>Home</Link>
       <Link to='/login'>Login</Link>
     </HeaderWrapper>
   );
-};
-
-export default Header;
+}

@@ -19,9 +19,11 @@ const Content = styled.main`
   }
 `;
 
-export function PageLayout(children) {
-  <>
-    <Header />
-    <Content>{children}</Content>
-  </>;
+export function PageLayout({ children }) {
+  return (
+    <div>
+      <Header />
+      <Content>{children}</Content>
+    </div>
+  );
 }
